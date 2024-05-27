@@ -18,10 +18,7 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
-
-        <div class="min-h-screen bg-gray-100">
-          
-
+        <div class="min-h-screen ">
             <!-- Page Heading -->
             @include('partials.navbar')
             <!-- Page Content -->
@@ -29,8 +26,6 @@
                 @yield('content')
             </main>
         </div>
-
-     
         <div>
             @include('partials.footer')
         </div>
