@@ -18,9 +18,9 @@
     ```bash
     composer install
     npm install
+    npm i preline
     npm run dev
     ```
-
 3. Copy `.env.example` to `.env`:
     ```bash
     cp .env.example .env
